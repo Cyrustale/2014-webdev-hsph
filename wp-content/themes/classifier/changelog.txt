@@ -1,0 +1,178 @@
+/*
+    Theme Name: Classifier
+    Theme URI: http://demo.colorlabsproject.com/classifier/
+    Author: ColorLabs & Company
+    Author URI: http://colorlabsproject.com
+    Designer: Andre Septian
+    Designer URI: http://about.me/andreseptian
+    Requirements: WordPress 3.0 or higher, PHP 5
+    Compatibility: WordPress 3.3.1
+    Last Update Date: 05 August 2013
+*/
+
+/**** Changelog ****/
+
+"Please backup your theme pack files at first before you update the theme into the latest version"
+
+2013.08.05 - Version 1.4.3
+- Files Affected: step1.php, step2.php, step3.php, step-functions, style.css, functions.php
+	Fix: Submit Ads Category and Form Tooltip
+	
+2013.07.31 - Version 1.4.2
+- Files Affected: step1.php, step2.php, step3.php, template-add-new-confirm.php, sidebar-ad.php, functions.php
+	Add: Custom Form Editor and Custom Field Editor
+- File Added: sidebar-map.php
+	Files Affected: sidebar-ad.php, theme-js.php, theme-options.php
+	Add: Google Map for single Ads (single post type)
+- File Added: theme-cron.php
+	Files Affected: theme-functions.php, theme-functions-cl.php, theme-options.php
+	Add: Cron Job for expired Ads
+- Files Affected: theme-functions.php, theme-functions-cl.php, theme-gateways.php, step1-membership.php, step2-membership.php, step3-membership.php, style.css
+	Fix: Minor bugs
+- Files Affected: style.css
+	Add: Integration with BuddPress plugin	
+
+2013.07.16 - Version 1.4.1
+- Files Affected: sidebar-user.php, theme-emails.php, theme-options.php
+	Fix: Email Membership expired
+	Fix: Email new user
+	Fix: payment gateway setting
+
+2013.06.28 - Version 1.4.0
+- Files Affected: includes/theme-emails.php, includes/theme-options.php, includes/forms/step3.php, includes/theme-install.php, includes/gateways/paypal.php, includes/theme-gateways.php, sidebar-user.php
+	Add: Email settings
+	Fix: Email notification feature
+
+2013.06.13 - Version 1.3.14
+- Fix: Twitter widget API
+
+2013.05.07 - Version 1.3.13
+- Fix: contact template to show "Message" label
+
+2013.04.30 - Version 1.3.12
+- Fix: Currency symbol positions not working
+- Fix: Single ad page blocked by AdBlocker extensions
+
+2013.04.26 - Version 1.3.11
+- Add: Location field for advance search form
+- Fix: Pagination for advance search
+- Fix: Single Ad gallery image shown even there is only one image
+
+2013.04.24 - Version 1.3.10
+- Files Affected: style.css, header.php, single-ad.php, includes/js/scripts.js
+  Fix: jQuery validator
+  Fix: Single Ad gallery image
+
+2013.04.02 - Version 1.3.9
+- Files Affected: includes/theme-gateways.php
+  Fixed bugs drag and drop on gateways setting
+
+2013.03.20 - Version 1.3.8
+- Files Affected: sidebar-contact.php, widget-colabs-latest-ads.php, widget-colabs-featured-ad.php
+  Fixed bugs on the contact form and widgets
+
+2013.02.28 - Version 1.3.7
+- Remove blank space
+
+2013.02.22 - Version 1.3.6
+- Files Affected: almost all files and functions with query
+  Update WP_Query class
+  Replace wp_reset_query with wp_reset_postdata
+  Bug fixes
+  Cleaned php error and warning
+
+2013.01.22 - Version 1.3.5
+- Files Affected: style.css, includes/js/scripts.js, includes/js/plugins.js
+  Fix: Table layout on mobile
+
+2013.01.09 - Version 1.3.4
+- File Affected: theme-functions-cl.php, step-functions.php
+  Fix featured section tag filter 
+
+2013.01.08 - Version 1.3.3
+- File Affected: step_1.php
+  Fixed Price field
+  
+2013.01.04 - Version 1.3.2
+- File Affected: theme-function.php, theme-options.php, index.php, content-post.php, style.css
+  Fix : Add post format (quote, audio, gallery, chat)
+  Update style post format and table default 
+  Update breadcrumb
+  Add audio-player.js and player.swf
+  
+2012.12.19 - Version 1.3.1
+- Files Affected: style.css, function/, theme-option.php, header.php, scripts.js
+  Compatible with WP 3.5, redesign responsive menu, add captcha option
+  
+2012.12.07 - Version 1.3.0
+- Files Affected: style.css, sidebar-ad.php
+  Fix: Facebook and Twitter Link details, edit notification
+  
+2012.11.13 - Version 1.2.10
+- Files Affected: style.css, includes/js/scripts.js
+  Fix: Featured list carousel
+
+2012.10.12 - Version 1.2.9
+- Files Affected: includes/theme-functions-cl.php, includes/theme-install.php
+  Fix: Product website field name mismatch
+
+2012.10.05 - Version 1.2.8
+- File Affected: includes/theme-membership-packages.php, includes/forms/step-functions.php
+  Fix: Link for enable membership features
+  
+2012.09.27 - Version 1.2.7
+- File Affected: style.css
+  Fix: Some style issues on Internet Explorer
+- Files Affected: header.php, includes/theme-functions-cl.php
+  Fix: Make validator message translatable
+  Fix: Make form label translatable
+
+2012.09.25 - Version 1.2.6
+- File Affected: style.css
+  Fix: Some bug on responsive layout
+
+2012.09.19 - Version 1.2.5
+- File Affected: header.php, includes/js/html5shiv.js
+  Fix layout on IE8
+
+2012.08.24 - Version 1.2.4
+- File Affected: style.css
+- Fixed style for all category in mobile device
+
+2012.08.09 - Version 1.2.3
+- File Affected: All files
+- Fixed some bugs
+
+2012.07.27 - Version 1.2.2
+- Fixed taxonomy breadcrumb bugs
+- Fixed ad-location dropdown walker 
+
+2012.07.26 - Version 1.2.1
+- Fixed small bugs
+- Fixed ads view counter. 
+
+2012.07.25 - Version 1.2.0
+- Fixed small bugs
+- Add option to change page template slug
+
+2012.07.24 - Version 1.1.0
+- Update Framework
+- Add option to disable responsive layout
+
+2012.07.23 - version 1.0.3
+- Fix add new ad form.
+- Fix image upload function on new ad form.
+- Fix jquery init on add new ad form.
+- Add Location category input.
+- Add submitted IP info on edit ads.
+- Fix includes/js/scripts.js
+
+2012.07.19 - version 1.0.2
+- Fix ad submission image bug.
+
+2012.06.29 - version 1.0.1
+- Fix ad submission form bug.
+- Fix error form container.
+
+2012.06.15 - version 1.0.0
+- First release.

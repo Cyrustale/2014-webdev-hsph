@@ -1,0 +1,39 @@
+<!--=================================================
+Initial colabs_options for integrating with WPML
+Theme : Classifier
+=====================================================-->
+<wpml-config>
+		<custom-fields>
+		 <custom-field action="translate">fields</custom-field>
+		</custom-fields>
+    <custom-types>
+        <custom-type translate="1">ad</custom-type>
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">ad_cat</taxonomy>
+        <taxonomy translate="1">ad_tag</taxonomy>
+    </taxonomies>   
+    <admin-texts>
+        <key name="colabs_options" >
+					<key name="colabs_featured_header" />
+					<key name="colabs_featured_tags" />
+					<key name="colabs_archive_listings_header" />
+					<key name="colabs_archive_general_header" />
+					<key name="colabs_ads_welcome_msg" />
+					<key name="colabs_ads_form_msg" />
+					<key name="colabs_membership_form_msg" />
+					<key name="colabs_ads_tou_msg" />
+					<key name="colabs_nu_from_name" />
+					<key name="colabs_nu_email_subject" />
+					<key name="colabs_nu_email_body" />
+					<key name="colabs_og_sitename" />
+					<key name="colabs_og_admins" />
+					<key name="colabs_og_admins" />
+					<key name="colabs_footer_credit_txt" />
+				</key>
+				<key name="fields" />
+    </admin-texts>    
+        
+</wpml-config>
+
+
